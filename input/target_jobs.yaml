@@ -1,0 +1,34 @@
+jobs:
+  - job_id: sample_fullstack_ai_001
+    title: Full Stack AI Engineer
+    company: TechInnovate Corp
+    source_url: https://example.com/jobs/12345
+    seniority: Mid-Level
+    industry: Technology
+    description: >
+      Buscamos un Full Stack AI Engineer para desarrollar e integrar soluciones 
+      innovadoras basadas en IA en nuestros productos principales.
+    requirements:
+      - 3+ anios de experiencia en desarrollo Full Stack.
+      - Experiencia demostrable trabajando con APIs de LLMs o modelos de Machine Learning.
+      - Familiaridad con despliegues en la nube (AWS/GCP).
+    responsibilities:
+      - Disenar arquitectura de microservicios con Python/FastAPI.
+      - Desarrollar interfaces reactivas interactivas.
+      - Integrar modelos analiticos y de IA en flujo continuo.
+    must_have_skills:
+      - Python
+      - FastAPI
+      - React o Next.js
+      - SQL (PostgreSQL)
+      - Git
+    nice_to_have_skills:
+      - AWS
+      - Docker / Kubernetes
+      - IA / LLM orchestration (LangChain, etc.)
+    keywords_ats:
+      - Full Stack
+      - Artificial Intelligence
+      - Backend
+      - Frontend
+      - Cloud Optimization

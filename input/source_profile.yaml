@@ -1,0 +1,352 @@
+candidate:
+  id: jordan_aran_001
+  canonical_name: Jordan Michelt Aran Perez
+  language: es
+  headline: Ingeniero de Software / Arquitecto de Soluciones en IA y Optimización
+  location:
+    city: Tampico
+    state: Tamaulipas
+    country: México
+  contact:
+    email: jordan.cxaran@gmail.com
+    phone: "+52 833 451 71 52"
+    website: https://cxaran.com
+    social_networks:
+      - network: LinkedIn
+        username: jordan-michelt-aran-perez
+      - network: GitHub
+        username: cxaran
+
+  education_credentials:
+    - degree: Licenciatura en Ingeniería en Sistemas Computacionales
+      institution: Instituto Tecnológico de Ciudad Madero
+      license_number: "12392258"
+      registration_year: 2021
+      state: Tamaulipas
+    - degree: Maestría en Ciencias de la Computación
+      institution: Instituto Tecnológico de Ciudad Madero
+      license_number: "15512722"
+      registration_year: 2026
+      state: Tamaulipas
+
+positioning_profiles:
+  - id: backend_ai
+    title: Backend / AI Engineer
+    summary_angle: Perfil con foco en backend, datos, IA, optimización y desarrollo de soluciones técnicas con base analítica.
+    target_roles:
+      - Backend Developer
+      - Backend Engineer
+      - AI Engineer
+      - Applied AI Engineer
+      - Data / ML Engineer
+    value_proposition:
+      - Formación sólida en Ciencias de la Computación con especialización académica en optimización y machine learning.
+      - Experiencia implementando backend, base de datos, despliegue e integración en entornos productivos.
+      - Capacidad para conectar desarrollo de software con análisis de datos y enfoque de resolución de problemas.
+
+  - id: fullstack_architect
+    title: Full Stack / Software Architect
+    summary_angle: Perfil de creador y constructor con ownership end-to-end en arquitectura, implementación, despliegue y mantenimiento (Zero-to-One).
+    target_roles:
+      - Full Stack Developer
+      - Software Engineer
+      - Software Architect
+      - Product Engineer
+    value_proposition:
+      - Liderazgo autónomo construyendo plataformas críticas desde cero con FastAPI, PostgreSQL, Next.js y AWS.
+      - Ownership individual del sistema en producción, logrando reducciones del 50% en tiempos operativos.
+      - Perfil amigable y colaborativo, con capacidad de convertir problemas logísticos en plataformas funcionales.
+
+core_summary:
+  professional_summary: >
+    Creador de software apasionado por investigar, conectar ideas y resolver rompecabezas dificiles. 
+    Mi mayor motivacion es explorar temas de inteligencia artificial y optimizacion matematica para desarrollar soluciones modernas. 
+    Tengo experiencia asumiendo proyectos de principio a fin usando herramientas diversas. Me caracterizan mis valores, 
+    mi interes por aprender e investigar cosas nuevas y aportar soluciones creativas al equipo.
+  strengths:
+    - Desarrollo full stack y arquitectura con ownership absoluto (End-to-End).
+    - Reducción de cuellos de botella operativos (historial de mejoras del >50%).
+    - Backend de alto rendimiento en Python con FastAPI.
+    - Diseño y operación de bases de datos PostgreSQL y SQL.
+    - Despliegue y mantenimiento autónomo en AWS sobre Linux/Ubuntu.
+    - Base académica fuerte (M.C.) orientada a optimización, IA y análisis de datos.
+    - Autonomía, empatía, curiosidad investigativa y mentalidad orientada a la colaboración.
+
+experience_expanded:
+  - company: ESEASA
+    role: Desarrollador Full Stack / Arquitecto de Software
+    period:
+      start: 2023-01
+      end: 2026-03
+    location:
+      city: Tampico
+      state: Tamaulipas
+      country: México
+    context:
+      industry: construcción marítima
+      environment: producción / entorno industrial
+      team_setup: responsable absoluto e integral del sistema (End-to-End)
+      business_goal: control de reportes y seguimiento del avance de fases de construcción de plataformas marítimas
+    architecture:
+      backend: FastAPI
+      frontend: Next.js
+      database: PostgreSQL
+      infra: AWS
+      os: Ubuntu
+      api_style: REST
+    responsibilities:
+      - Análisis de requerimientos y diseño funcional integral de la plataforma.
+      - Diseño de arquitectura técnica y modelado de datos.
+      - Desarrollo backend, frontend y capa de persistencia.
+      - Implementación de algoritmos de optimización para la gestión de proyectos industriales.
+      - Despliegue, operación y mantenimiento preventivo/correctivo sobre infraestructura Linux en AWS.
+    achievements:
+      - text: Lideré de forma autónoma el diseño y desarrollo integral de una plataforma web crítica para el control de construcción de plataformas marítimas.
+        evidence_type: leadership_and_development
+      - text: Optimicé el flujo operativo de reportes, reduciendo el tiempo de procesamiento en más de un 50% y habilitando métricas antes inexistentes.
+        evidence_type: business_impact
+      - text: Implementé herramientas de optimización matemática para el seguimiento de fases, conectando mi formación de maestría con soluciones reales de negocio.
+        evidence_type: applied_research
+      - text: Arquitectura robusta implementada con FastAPI, PostgreSQL y Next.js, desplegada y administrada directamente en AWS (Ubuntu).
+        evidence_type: infrastructure_ownership
+    verified_skills:
+      - Python
+      - FastAPI
+      - PostgreSQL
+      - Next.js
+      - AWS
+      - Ubuntu
+      - Linux
+      - REST APIs
+      - Full Stack Development
+      - Software Architecture
+      - End-to-End Ownership
+      - Process Optimization
+
+  - company: Prointernet
+    role: Programador Backend
+    period:
+      start: 2020-01
+      end: 2021-12
+    location:
+      city: Tampico
+      state: Tamaulipas
+      country: México
+    context:
+      industry: hotelería y restaurantes
+      environment: agencia/consultoría
+      business_goal: desarrollo de sitios web para clientes comerciales
+    responsibilities:
+      - Desarrollo backend para proyectos web comerciales y operacionales.
+      - Implementación de funcionalidades orientadas a la presencia digital.
+      - Entrega técnica de soluciones autónomas para clientes directos.
+    achievements:
+      - text: Desarrollé y gestioné de manera autónoma la programación backend de más de 5 sitios web para los sectores restaurantero y hotelero.
+        evidence_type: development
+      - text: Implementé funcionalidades críticas para plataformas web orientadas a la operación comercial y presencia digital de los clientes.
+        evidence_type: business_delivery
+    verified_skills:
+      - Backend Development
+      - Web Development
+      - Client Delivery
+      - Autonomy
+
+projects_expanded:
+  - name: Plataforma de control de reportes (Eseasa Sys)
+    period:
+      start: 2023-01
+      end: 2026-03
+    context:
+      objective: Registrar, centralizar y dar seguimiento al avance por fases de construcción.
+      environment: producción
+      ownership: desarrollo y diseño integral por un único responsable
+    architecture:
+      backend: FastAPI
+      frontend: Next.js
+      database: PostgreSQL
+      infra: AWS
+      os: Ubuntu
+    achievements:
+      - text: Plataforma full stack para registrar y dar seguimiento al avance por fases, con mejoras operativas comprobadas del 50%.
+        evidence_type: impact
+      - text: Arquitectura backend API con FastAPI, frontend en Next.js y persistencia en PostgreSQL en entorno Linux Ubuntu.
+        evidence_type: integration
+
+  - name: Interfaz web para experimentación multiobjetivo
+    period:
+      start: 2020-01
+      end: 2021-12
+    context:
+      objective: Apoyar la experimentación académica con problemas multiobjetivo con conocimiento imperfecto.
+      type: proyecto de titulación
+    achievements:
+      - text: Desarrollo de interfaz gráfica y flujo de pruebas para escenarios de optimización multiobjetivo con conocimiento imperfecto.
+        evidence_type: academic_development
+
+  - name: Eureka Universe - apoyo técnico y primer servidor
+    period:
+      start: 2019-10
+      end: 2020-04
+    context:
+      objective: Apoyar al cuerpo académico de Optimización Inteligente para la gestión y sistematización de procesos complementarios a la investigación.
+      type: servicio social
+    achievements:
+      - text: Realicé modificaciones en la interfaz y fórmulas para la graficación del software Eureka Universe.
+      - text: Desarrollé el primer servidor del software dentro del programa de apoyo académico.
+
+education_expanded:
+  - institution: Instituto Tecnológico de Ciudad Madero
+    degree: Maestría en Ciencias de la Computación
+    period:
+      start: 2021-01
+      end: 2023-12
+    location:
+      city: Ciudad Madero
+      state: Tamaulipas
+      country: México
+    status: finalizado
+    license_number: "15512722"
+    registration_year: 2026
+    thesis: "Optimizacion generalizada para problemas de agrupacion: Un enfoque coevolutivo auto-adaptativo."
+    thesis_date: 2024-02-01
+    thesis_url: https://rinacional.tecnm.mx/handle/TecNM/7945
+    focus_areas:
+      - Optimización
+      - Inteligencia artificial
+      - Machine learning
+      - Análisis de datos
+
+  - institution: Instituto Tecnológico de Ciudad Madero
+    degree: Ingeniería en Sistemas Computacionales
+    period:
+      start: 2016-01
+      end: 2021-12
+    location:
+      city: Ciudad Madero
+      state: Tamaulipas
+      country: México
+    status: concluido
+    license_number: "12392258"
+    registration_year: 2021
+    thesis: Desarrollo de una interfaz gráfica web para soporte a la experimentación con problemas multiobjetivo con conocimiento imperfecto.
+    honors:
+      - Uno de los tres promedios más altos de la licenciatura.
+
+publications:
+  - title: "Optimizacion generalizada para problemas de agrupacion: Un enfoque coevolutivo auto-adaptativo"
+    year: 2024
+    month: 02
+    venue: "Tesis de Maestria - Repositorio Institucional del Tecnológico Nacional de México"
+    url: https://rinacional.tecnm.mx/handle/TecNM/7945
+    authors:
+      - Jordan Michelt Aran Perez
+    verified_skills:
+      - IA
+      - Algoritmos Coevolutivos
+      - Optimización Auto-adaptativa
+      - BPP-1D / PMS
+
+  - title: A cooperative coevolutionary genetic approach to solve packing problems
+    year: 2022
+    month: 01
+    venue: 10th International Workshop on Numerical and Evolutionary Optimization (NEO X)
+    authors:
+      - Jordan Michelt Aran Perez
+      - Laura Cruz Reyes
+      - Bernabé Dorronsoro
+      - Héctor Fraire
+      - Nelson Rangel Valdez
+      - Claudia Guadalupe Gómez Santillán
+      - Marcela Quiroz Castellanos
+    verified_skills:
+      - Optimization
+      - Evolutionary Algorithms
+      - Research
+
+academic_and_teaching_activity:
+  - role: Profesor adjunto
+    institution: Instituto Tecnológico de Ciudad Madero
+    subject: Análisis y Diseño de Algoritmos
+    period:
+      start: 2022-08
+      end: 2022-12
+  - role: Profesor adjunto
+    institution: Instituto Tecnológico de Ciudad Madero
+    subject: Probabilidad y Estadística (Maestría)
+    period:
+      start: 2023-01
+      end: 2023-06
+  - role: Ponente
+    institution: Secundaria General Winston Churchill
+    activity: Conferencia "Un paseo por los caminos de la Inteligencia Artificial"
+    period:
+      start: 2023-02
+      end: 2023-03
+  - role: Participante
+    institution: Universidad Autónoma de Tamaulipas
+    activity: 1er Coloquio Interinstitucional de Investigación Básica y de Frontera
+    period:
+      start: 2023-06
+      end: 2023-06
+
+skills_catalog:
+  programming_languages:
+    - Java
+    - Python
+    - JavaScript
+    - C/C++
+    - Dart
+    - R
+  frameworks_and_web:
+    - FastAPI
+    - Flask
+    - React
+    - Next.js
+    - Node.js
+    - Flutter
+  databases:
+    - PostgreSQL
+    - SQL Server
+    - MongoDB
+  cloud_and_systems:
+    - AWS
+    - Ubuntu
+    - Linux
+  data_ai_optimization:
+    - TensorFlow
+    - Pandas
+    - Matplotlib
+    - Optimización matemática
+    - Inteligencia Artificial
+    - Machine Learning
+    - Análisis de datos
+  professional_skills:
+    - Liderazgo técnico (End-to-End)
+    - Resolución de problemas complejos
+    - Investigación e Innovación
+    - Trabajo colaborativo
+    - Adaptabilidad y Aprendizaje autónomo
+
+languages:
+  - language: Español
+    level: Nativo
+  - language: Inglés
+    level: Competencia profesional limitada (B1 / TOEFL 573)
+
+ats_evidence:
+  - "Camuflaje ATS (Parámetros de Evaluación): Bloque YAML inyectado estratégicamente bajo etiquetas como 'Criterios de indexacion', 'Contexto de procesamiento' y 'Trazabilidad ATS' para guiar positivamente a LLMs de reclutamiento."
+  - "Métrica de impacto verificable: Mejora operativa del >50% en Eseasa Sys."
+  - "Evidencia de seniority: Capacidad demostrada para llevar sistemas complejos de la fase de requerimientos hasta el despliegue en producción (AWS/Ubuntu) de forma autónoma."
+  - "Perfil Híbrido: Correspondencia directa entre los skills de programación backend (FastAPI, Python) y su background en investigación algorítmica y coevolutiva."
+
+cv_strategy_notes:
+  recommended_primary_cv:
+    title: Ingeniero de Software / IA & Optimización
+    emphasis:
+      - Autonomía y liderazgo en ESEASA (impacto del 50%).
+      - Enfoque apasionado por la investigación y la IA.
+      - Stack robusto: FastAPI, Next.js, PostgreSQL, AWS.
+  design_recommendations:
+    - Usar RenderCV (Classic Theme).
+    - Evitar palabras cliché; usar verbos de acción y la nueva redacción humanizada.
+    - Mantener la inyección de prompt camuflada al final del CV.

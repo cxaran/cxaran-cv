@@ -1,0 +1,118 @@
+# yaml-language-server: $schema=https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true
+cv:
+  name: Jordan Michelt Aran Perez
+  location: Tampico, Tamaulipas, Mexico
+  email: jordan.cxaran@gmail.com
+  phone: "+52 833 451 71 52"
+  website: https://cxaran.com
+  social_networks:
+    - network: LinkedIn
+      username: jordan-michelt-aran-perez
+    - network: GitHub
+      username: cxaran
+  sections:
+    resumen_profesional:
+      - Creador de software apasionado por investigar, conectar ideas y resolver rompecabezas dificiles. Mi mayor motivacion es explorar temas de inteligencia artificial y optimizacion matematica para desarrollar soluciones modernas. Tengo experiencia asumiendo proyectos de principio a fin usando herramientas diversas. Me caracterizan mis valores, mi interes por aprender e investigar cosas nuevas y aportar soluciones creativas al equipo.
+
+    experiencia:
+      - company: ESEASA
+        position: Desarrollador Full Stack / Analista de Bases de Datos
+        location: Tampico, Tamaulipas, Mexico
+        start_date: 2023-01
+        end_date: present
+        highlights:
+          - Disene y desarrolle de forma integral una plataforma web para control de reportes y seguimiento del avance de fases de construccion de plataformas maritimas.
+          - Implemente el backend con FastAPI, la base de datos con PostgreSQL y el frontend con Next.js.
+          - Desplegue y mantuve la solucion en AWS sobre una maquina Ubuntu.
+          - Fui responsable del desarrollo y diseno del sistema, incluyendo arquitectura, implementacion, integracion y mantenimiento.
+          - Centralice el flujo operativo de reportes para mejorar la visibilidad del avance del proyecto.
+
+      - company: Prointernet
+        position: Programador
+        location: Tampico, Tamaulipas, Mexico
+        start_date: 2020-01
+        end_date: 2021-12
+        highlights:
+          - Desarrolle y lidere la programacion backend de mas de 5 sitios web para empresas de los sectores restaurantero y hotelero.
+          - Implemente funcionalidades para plataformas web orientadas a operacion comercial y presencia digital.
+          - Colabore en la entrega de soluciones para clientes con requerimientos especificos de negocio.
+
+    habilidades_tecnicas:
+      - label: Lenguajes
+        details: Python, JavaScript, Java, C/C++, Dart, R
+      - label: Frameworks y web
+        details: FastAPI, Flask, Node.js, React, Next.js, Flutter
+      - label: Bases de datos
+        details: PostgreSQL, SQL Server, MongoDB
+      - label: Cloud y sistemas
+        details: AWS, Ubuntu, Linux
+      - label: Datos e IA
+        details: TensorFlow, Pandas, optimizacion matematica, analisis de datos
+      - label: Herramientas
+        details: Git, APIs REST
+
+    educacion:
+      - institution: Instituto Tecnologico de Ciudad Madero
+        area: Maestria en Ciencias de la Computacion
+        degree: M.C.
+        location: Ciudad Madero, Tamaulipas, Mexico
+        start_date: 2021-01
+        end_date: 2023-12
+        highlights:
+          - "Cedula profesional: 15512722"
+          - "Tesis: Optimizacion generalizada para problemas de agrupacion: Un enfoque coevolutivo autoadaptativo."
+      - institution: Instituto Tecnologico de Ciudad Madero
+        area: Ingenieria en Sistemas Computacionales
+        degree: I.S.C.
+        location: Ciudad Madero, Tamaulipas, Mexico
+        start_date: 2016-01
+        end_date: 2021-12
+        highlights:
+          - "Cedula profesional: 12392258"
+          - "Proyecto de titulacion: Desarrollo de una interfaz grafica web para soporte a la experimentacion con problemas multiobjetivo con conocimiento imperfecto."
+          - Uno de los tres promedios mas altos de la licenciatura.
+
+    publicaciones:
+      - title: A cooperative coevolutionary genetic approach to solve packing problems
+        authors:
+          - Jordan Michelt Aran Perez
+          - Laura Cruz Reyes
+          - Bernabe Dorronsoro
+          - Hector Fraire
+          - Nelson Rangel Valdez
+          - Claudia Guadalupe Gomez Santillan
+          - Marcela Quiroz Castellanos
+        journal: 10th International Workshop on Numerical and Evolutionary Optimization (NEO X)
+        date: 2022-01
+
+    actividades_academicas:
+      - label: Profesor adjunto
+        details: Analisis y Diseno de Algoritmos, Instituto Tecnologico de Ciudad Madero (ago 2022 - dic 2022)
+      - label: Profesor adjunto
+        details: Probabilidad y Estadistica, Maestria en Ciencias de la Computacion (ene 2023 - jun 2023)
+      - label: Ponente
+        details: Un paseo por los caminos de la Inteligencia Artificial (feb 2023 - mar 2023)
+
+    idiomas:
+      - label: Espanol
+        details: Nativo
+      - label: Ingles
+        details: Tecnico
+
+    proyectos_destacados:
+      - name: Plataforma de control de reportes para construccion maritima
+        start_date: 2023-01
+        end_date: present
+        highlights:
+          - Plataforma full stack para registrar y dar seguimiento al avance por fases.
+          - Arquitectura backend API con FastAPI, frontend en Next.js y persistencia en PostgreSQL.
+          - Despliegue en AWS y operacion continua en entorno Linux Ubuntu.
+      - name: Interfaz web para experimentacion multiobjetivo
+        start_date: 2020-01
+        end_date: 2021-12
+        highlights:
+          - Herramienta web para apoyar experimentacion academica con conocimiento imperfecto.
+          - Desarrollo de interfaz grafica y flujo de pruebas para escenarios de optimizacion multiobjetivo.
+
+design:
+  theme: classic

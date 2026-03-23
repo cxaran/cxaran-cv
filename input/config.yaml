@@ -1,0 +1,106 @@
+provider:
+  llm_provider: groq
+  llm_api_base_url: https://api.groq.com/openai/v1
+  llm_api_key_env: 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
+  llm_api_mode: responses_api
+
+model_pool:
+  - id: openai/gpt-oss-20b
+    enabled: true
+    weight: 1.0
+    supports_structured_outputs: true
+    supports_general_text: true
+  - id: openai/gpt-oss-120b
+    enabled: true
+    weight: 0.8
+    supports_structured_outputs: true
+    supports_general_text: true
+  - id: moonshotai/kimi-k2-instruct
+    enabled: true
+    weight: 1.0
+    supports_structured_outputs: false
+    supports_general_text: true
+  - id: moonshotai/kimi-k2-instruct-0905
+    enabled: true
+    weight: 1.0
+    supports_structured_outputs: true
+    supports_general_text: true
+  - id: llama-3.1-8b-instant
+    enabled: true
+    weight: 0.7
+    supports_structured_outputs: false
+    supports_general_text: true
+  - id: llama-3.3-70b-versatile
+    enabled: true
+    weight: 0.9
+    supports_structured_outputs: false
+    supports_general_text: true
+  - id: meta-llama/llama-4-scout-17b-16e-instruct
+    enabled: true
+    weight: 0.9
+    supports_structured_outputs: false
+    supports_general_text: true
+  - id: qwen/qwen3-32b
+    enabled: true
+    weight: 0.9
+    supports_structured_outputs: false
+    supports_general_text: true
+
+model_selection:
+  strategy: weighted_random
+  with_replacement: false
+  min_models_per_round: 3
+  max_models_per_round: 5
+  require_structured_outputs_for_evaluation: true
+  require_general_text_for_generation: true
+  cooldown_on_failure: true
+  cooldown_rounds: 2
+
+files:
+  seed_cv_file: input/seed_cv.yaml
+  source_profile_file: input/source_profile.yaml
+  target_jobs_file: input/target_jobs.yaml
+
+constraints:
+  max_pages: 1
+  max_bullets_per_role: 4
+  max_words_summary: 80
+  allow_hallucinated_content: false
+  require_source_traceability: true
+  allow_prompt_fields: false
+  allow_instructional_content: false
+
+evolution:
+  population_size: 20
+  num_generations: 8
+  elite_ratio: 0.10
+  selection_ratio: 0.40
+  exploration_ratio: 0.20
+  exploitation_ratio: 0.80
+  selection_method: tournament
+  tournament_size: 3
+  mutation_rate: 0.30
+  strong_mutation_rate: 0.10
+  crossover_rate: 0.70
+  content_injection_rate: 0.40
+
+evaluation:
+  score_scale_min: 1
+  score_scale_max: 5
+  variance_penalty_weight: 0.10
+  job_coverage_weight: 0.20
+  ats_weight: 0.20
+  evidence_density_weight: 0.10
+  aggregation_method: weighted_mean
+  evaluator_sampling: random_subset
+
+api:
+  request_timeout_seconds: 45
+  max_retries: 3
+  retry_backoff_seconds: 2
+  parallel_requests: 5
+
+scheduler:
+  throttle_on_429: true
+  retry_on_429: true
+  retry_jitter: true

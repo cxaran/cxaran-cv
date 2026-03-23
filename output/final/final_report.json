@@ -1,0 +1,27 @@
+{
+  "best_fitness": 2.5,
+  "best_scores": {
+    "job_coverage": 5.0,
+    "ats_match": 5.0,
+    "evidence_density": 5.0
+  },
+  "best_lineage": [
+    "seed",
+    "gen_0_crossover+mutation",
+    "gen_1_crossover+mutation",
+    "gen_2_elite",
+    "gen_2_crossover",
+    "gen_3_elite",
+    "gen_4_elite",
+    "gen_5_elite",
+    "gen_6_elite",
+    "gen_7_elite"
+  ],
+  "top_5_fitness": [
+    2.5,
+    2.4,
+    2.3,
+    2.3,
+    2.2
+  ]
+}

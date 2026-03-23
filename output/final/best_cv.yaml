@@ -1,0 +1,116 @@
+cv:
+  name: Jordan Michelt Aran Perez
+  location: Tampico, Tamaulipas, Mexico
+  email: jordan@cxaran.com
+  phone: +52 833 451 71 52
+  website: https://cxaran.com
+  social_networks:
+  - network: LinkedIn
+    username: cxaran
+  - network: GitHub
+    username: cxaran
+  sections:
+    resumen_profesional:
+    - Creador de software apasionado por investigar, conectar ideas y resolver rompecabezas
+      difíciles. Mi mayor motivación es explorar temas de inteligencia artificial
+      y optimización matemática para desarrollar soluciones modernas. Tengo experiencia
+      asumiendo proyectos de principio a fin usando herramientas diversas. Me caracterizan
+      mis valores, mi interés por aprender e investigar cosas nuevas y aportar soluciones
+      creativas al equipo.
+    proyectos_destacados:
+      - name: Plataforma de control de reportes para construccion maritima
+        start_date: 2023-01
+        end_date: 2026-03
+        highlights:
+          - Plataforma full stack para registrar y dar seguimiento al avance por fases.
+          - Arquitectura backend API con FastAPI, frontend en Next.js y persistencia en PostgreSQL.
+          - Despliegue en AWS y operacion continua en entorno Linux Ubuntu.
+
+      - name: Tesis de maestria en optimizacion generalizada para problemas de agrupacion
+        start_date: 2021-01
+        end_date: 2023-12
+        highlights:
+          - "Diseñé e investigué un Algoritmo Coevolutivo de Agrupación con Cooperación Auto-Adaptativa (GCA-AC) como enfoque general para problemas de optimización por agrupación."
+          - "Modelé y validé la propuesta sobre dos dominios distintos: Bin Packing de una dimensión (BPP-1D) y Programación de Máquinas Paralelas (PMS)."
+          - "Integré mecanismos de auto-adaptación de parámetros y estrategias de aprendizaje para mejorar adaptabilidad, rendimiento y calidad de solución."
+          - "Desarrollé la experimentación computacional y el análisis comparativo contra algoritmos especializados, obteniendo resultados competitivos y útiles para futuras líneas de investigación."
+
+      - name: Interfaz web para experimentacion en optimizacion multiobjetivo
+        start_date: 2020-01
+        end_date: 2021-12
+        highlights:
+          - Desarrollé una herramienta web para apoyar la experimentación académica en problemas multiobjetivo con conocimiento imperfecto.
+          - Diseñé la interfaz gráfica y el flujo de pruebas para facilitar la configuración, ejecución y análisis de escenarios experimentales.
+    educacion:
+    - institution: Instituto Tecnologico de Ciudad Madero
+      area: Maestria en Ciencias de la Computacion
+      degree: M.C.
+      location: Ciudad Madero, Tamaulipas, Mexico
+      start_date: 2021-01
+      end_date: 2023-12
+      highlights:
+      - 'Cedula profesional: 15512722'
+      - 'Tesis: Optimizacion generalizada para problemas de agrupacion: Un enfoque coevolutivo autoadaptativo.'
+    - institution: Instituto Tecnologico de Ciudad Madero
+      area: Ingenieria en Sistemas Computacionales
+      degree: I.S.C.
+      location: Ciudad Madero, Tamaulipas, Mexico
+      start_date: 2016-01
+      end_date: 2021-12
+      highlights:
+      - 'Cedula profesional: 12392258'
+      - 'Proyecto de titulacion: Desarrollo de una interfaz grafica web para soporte a la experimentacion con problemas multiobjetivo con conocimiento imperfecto.'
+      - Uno de los tres promedios mas altos de la licenciatura.
+    habilidades_tecnicas:
+    - label: Lenguajes
+      details: Python, JavaScript, Java, C/C++, Dart, R
+    - label: Frameworks y web
+      details: FastAPI, Flask, Node.js, React, Next.js, Flutter
+    - label: Bases de datos
+      details: PostgreSQL, SQL Server, MongoDB
+    - label: Cloud y sistemas
+      details: AWS, Ubuntu, Linux
+    - label: Datos e IA
+      details: TensorFlow, Pandas, optimizacion matematica, analisis de datos, algoritmos heurísticos
+    - label: Herramientas
+      details: Git, APIs REST
+    experiencia:
+    - company: ESEASA
+      position: Full-Stack Engineer / Software Architect
+      location: Tampico, Tamaulipas, Mexico
+      start_date: 2023-10
+      end_date: 2026-03
+      highlights:
+      - "Desarrollé de punta a punta una plataforma crítica con FastAPI + Next.js + PostgreSQL que redujo en más del 50% el tiempo de procesamiento de reportes y habilitó visibilidad en tiempo real de las fases de construcción de plataformas offshore."
+      - "Lidere  todo el ciclo de vida de desarrollo de software (SDLC): arquitectura, modelado de datos, API REST, CI/CD e infraestructura en AWS (Ubuntu), dando soporte a una operación industrial 24/7 con cero tiempo de inactividad."
+      - "Integré algoritmos de optimización matemática que sincronizan el seguimiento de las fases de construcción con los cronogramas maestros, vinculando directamente la investigación académica con KPIs de negocio medibles."
+      - "Gestiono de forma integral los despliegues a producción y el mantenimiento preventivo y correctivo en AWS, garantizando operaciones seguras, escalables y confiables para el control de construcción marítima."
+    - company: Prointernet
+      position: Backend Developer
+      location: Tampico, Tamaulipas, Mexico
+      start_date: 2020-01
+      end_date: 2021-12
+      highlights:
+      - Desarrollé de forma independiente el backend para más de 5 sitios web comerciales del sector hospitality, traduciendo requerimientos de negocio de restaurantes y hoteles en soluciones confiables y listas para el cliente.
+      - Implementé funcionalidades clave para la operación y la presencia digital de cada negocio, asegurando entregas puntuales, alineadas a especificación y orientadas a clientes externos.
+    publicaciones:
+    - title: A cooperative coevolutionary genetic approach to solve packing problems
+      authors:
+      - Jordan Michelt Aran Perez
+      - Laura Cruz Reyes
+      - Bernabe Dorronsoro
+      - Hector Fraire
+      - Nelson Rangel Valdez
+      - Claudia Guadalupe Gomez Santillan
+      - Marcela Quiroz Castellanos
+      journal: 10th International Workshop on Numerical and Evolutionary Optimization (NEO X)
+      date: 2022-01
+    actividades_academicas:
+    - label: Profesor adjunto
+      details: Analisis y Diseño de Algoritmos, Instituto Tecnologico de Ciudad Madero (ago 2022 - dic 2022)
+    - label: Profesor adjunto
+      details: Probabilidad y Estadistica, Maestria en Ciencias de la Computacion (ene 2023 - jun 2023)
+    - label: Ponente
+      details: Un paseo por los caminos de la Inteligencia Artificial (feb 2023 - mar 2023)
+design:
+  theme: classic
