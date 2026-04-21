@@ -8,9 +8,14 @@ cv:
   social_networks:
     - network: LinkedIn
       username: jordan-michelt-aran-perez
-    - network: GitHubb
+    - network: GitHub
       username: cxaran
   sections:
+    informacion_personal:
+      - label: CURP
+        details: AAPJ950731HTSRRR06
+      - label: RFC
+        details: AAPJ9507311B2
     resumen_profesional:
       - Creador de software apasionado por investigar, conectar ideas y resolver rompecabezas dificiles. Mi mayor motivacion es explorar temas de inteligencia artificial y optimizacion matematica para desarrollar soluciones modernas. Tengo experiencia asumiendo proyectos de principio a fin usando herramientas diversas. Me caracterizan mis valores, mi interes por aprender e investigar cosas nuevas y aportar soluciones creativas al equipo.
 

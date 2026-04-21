@@ -10,6 +10,11 @@ cv:
   - network: GitHub
     username: cxaran
   sections:
+    informacion_personal:
+    - label: CURP
+      details: AAPJ950731HTSRRR06
+    - label: RFC
+      details: AAPJ9507311B2
     resumen_profesional:
     - Creador de software apasionado por investigar, conectar ideas y resolver rompecabezas
       difíciles. Mi mayor motivación es explorar temas de inteligencia artificial
